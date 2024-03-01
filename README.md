@@ -13,6 +13,10 @@ BUSQUEDA POR Shared Key
 CREAR NUEVO CLIENTE
 ![image](https://github.com/JhonHeiler/FULLSTACK-ENGINEER-PRACTICAL-TEST-JHON-HEILER/assets/89054795/9e5193cb-fe75-4385-9651-f8b010badb37)
 
+EXPORTACION CVS
+![image](https://github.com/JhonHeiler/FULLSTACK-ENGINEER-PRACTICAL-TEST-JHON-HEILER/assets/89054795/d9647d51-03b6-4f7e-a88b-3805db226e8f)
+
+
 Pruebas unitarias 
 
 ![image](https://github.com/JhonHeiler/FULLSTACK-ENGINEER-PRACTICAL-TEST-JHON-HEILER/assets/89054795/14ef1e4a-faa7-4626-920a-4b47f283f1e8)
