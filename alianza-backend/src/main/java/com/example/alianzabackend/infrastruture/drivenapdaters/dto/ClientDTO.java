@@ -2,9 +2,6 @@ package com.example.alianzabackend.infrastruture.drivenapdaters.dto;
 import com.example.alianzabackend.domain.model.Client;
 import lombok.*;
 
-import java.time.LocalDate;
-
-
 @Getter
 @Setter
 @ToString
