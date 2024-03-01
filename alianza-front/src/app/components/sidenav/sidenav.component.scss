@@ -1,0 +1,25 @@
+.sidenav {
+  height: 100vh;
+  width: 250px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.sidenav a {
+  cursor: pointer;
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: rgb(90, 98, 207)
+}
+
+@media screen and (max-width: 970px) {
+  .sidenav {
+    display: none;
+  }
+}

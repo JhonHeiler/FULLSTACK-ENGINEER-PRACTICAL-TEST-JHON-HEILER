@@ -1,0 +1,33 @@
+<section class="search-wrapper">
+  <div class="search-container">
+    <input
+      type="search"
+      class="search-input"
+      placeholder="Enter shared key"
+      [(ngModel)]="search"
+    />
+    <button class="search-button" (click)="getSimpleSearchForm()">
+      Search
+    </button>
+  </div>
+
+  @if(!showAdvanced) {
+    <button
+      mat-raised-button
+      class="advanced-button"
+      color="primary"
+      (click)="showAdvanced = true"
+    >
+      Advanced Search
+    </button>
+  }
+</section>
+
+@if(showAdvanced) {
+  <div class="custom-search">
+    <app-client-form-base
+      [required]="false"
+      (getClientForm)="getSearchForm($event)"
+    ></app-client-form-base>
+  </div>
+}

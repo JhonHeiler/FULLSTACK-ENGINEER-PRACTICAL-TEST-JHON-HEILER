@@ -1,0 +1,35 @@
+<form class="client-form" [formGroup]="clientForm">
+  <!-- name -->
+  <mat-form-field appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" />
+  </mat-form-field>
+  <!-- phone -->
+  <mat-form-field appearance="outline">
+    <mat-label>Phone</mat-label>
+    <input matInput formControlName="phone" />
+  </mat-form-field>
+  <!-- email -->
+  <mat-form-field appearance="outline">
+    <mat-label>E-mail</mat-label>
+    <input matInput formControlName="email" type="email" />
+  </mat-form-field>
+  <!-- start date -->
+  <mat-form-field appearance="outline">
+    <mat-label>Start date</mat-label>
+    <input matInput formControlName="startDate" [matDatepicker]="picker1" />
+    <mat-datepicker-toggle matIconSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+  <!-- end date -->
+  <mat-form-field appearance="outline">
+    <mat-label>End date</mat-label>
+    <input matInput formControlName="endDate" [matDatepicker]="picker2" />
+    <mat-datepicker-toggle matIconSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2></mat-datepicker>
+  </mat-form-field>
+
+  <div class="btn-action">
+    <button mat-raised-button color="primary" (click)="getForm()">OK</button>
+  </div>
+</form>

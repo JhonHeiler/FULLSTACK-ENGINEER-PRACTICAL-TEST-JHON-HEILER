@@ -1,0 +1,57 @@
+.btn-actions {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+.container {
+  display: flex;
+}
+
+.sub-container {
+  width: 80%;
+  padding-left: 1em;
+}
+
+table {
+  min-width: 50em;
+}
+
+.cards {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+  align-items: center;
+  justify-items: center;
+  width: 90vw;
+}
+
+mat-card {
+  margin-bottom: 20px;
+  width: fit-content !important;
+}
+
+.info-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.field-label {
+  font-weight: bold;
+}
+
+.field-value {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 720px) {
+  table {
+    display: none;
+  }
+
+  .cards {
+    display: grid;
+  }
+}
